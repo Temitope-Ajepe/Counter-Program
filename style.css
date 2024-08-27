@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    
+}
+.body{
+    width: 500px;
+    height: 500px;
+    margin: 4rem auto;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+#labelCount{
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    margin: 8rem auto 0 auto;
+    color: white;
+}
+#countContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 1.25rem;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background: black;
+    color: white;
+}
